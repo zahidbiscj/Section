@@ -1,0 +1,57 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-image: url("img/bc.jpg");
+background-repeat: no-repeat;
+
+}
+form {border: 3px solid #f1f1f1;}
+
+.edit{
+	color : red;
+}
+
+.b{
+	color : white ;
+}
+
+input[type=text], input[type=password] {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+
+button:hover {
+    opacity: 0.9;
+}
+
+.imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+img.avatar {
+    width: 20%;
+    border-radius: 100%;
+}
+
+
+.container {
+    padding: 16px;
+}
+
+
+}
